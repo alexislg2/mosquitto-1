@@ -1,6 +1,13 @@
 Eclipse Mosquitto
 =================
 
+## ALG
+
+J'ai modifié le Dockerfile pour pouvoir compiler a ma sauce pour pouvoir supporter le TLSv1 comme expliqué dans cette issue https://github.com/eclipse/mosquitto/issues/1660
+
+J'ai donc fait mon propre .tar.gz hébergé sur agaru.eu et il faut ensuite recompiler puis pusher sur un registry
+
+
 Mosquitto is an open source implementation of a server for version 5.0, 3.1.1,
 and 3.1 of the MQTT protocol. It also includes a C and C++ client library, and
 the `mosquitto_pub` and `mosquitto_sub` utilities for publishing and
